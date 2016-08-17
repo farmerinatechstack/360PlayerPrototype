@@ -1,0 +1,7 @@
+This sample demonstrates how video playback can be implemented in Unity for both Rift and Gear VR.
+
+<title>Rewind</title>
+Rewinds the video to the beginning.
+
+<title>Play/Pause</title>
+This button toggles between Play and Pause, depending on the state the video is currently in.
