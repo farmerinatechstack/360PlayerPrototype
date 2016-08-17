@@ -9,7 +9,7 @@ The project contains scripts based off of the Oculus Sample Framework (https://d
 - Place both the mp4 and OGV files in the "StreamingAssets" folder of the project.
 - Open the "360Player" scene and select the MovieSurface GameObject.
 - Change the "Movie Name" field of the "Movie Player Sample" script to the name of your mp4 file in the StreamingAssets folder. For example, "YourMP4File.mp4"
-- Build and run the "360Player"
+- Build and run the "360Player" scene
 
 # Known Issues
 - As is, the project is known to support videos under 1 minute in length - I did not have access to others to test with.
