@@ -12,5 +12,6 @@ The project contains scripts based off of the Oculus Sample Framework (https://d
 - Build and run the "360Player"
 
 # Known Issues
-- The project is only known to work with videos under 1 minute in length - I did not have access to others to test with.
+- As is, the project is known to support videos under 1 minute in length - I did not have access to others to test with.
+- The current project stores videos locally in the StreamingAssets folder, resulting in a large project and build sizes as well as issues with Git. The .gitignore file is adjusted to prevent further additions to the StreamingAssets folder from being tracked, but a better future solution would be to fetch and load videos from online storage dynamically.
 - Because the normals are flipped on the sphere that plays the movie, text/symbols/objects in which orientation matters will appear backwards.
